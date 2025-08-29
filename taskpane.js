@@ -21,7 +21,7 @@ Office.onReady(() => {
         if (sig !== lastSig) {
           lastSig = sig;
           out.textContent = `${shown || "(blank)"}`;
-          status.textContent = "Live (selection viewer)";
+          status.textContent = "Selection Viewer";
         }
       });
     } catch (e) {
