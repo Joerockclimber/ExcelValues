@@ -20,7 +20,7 @@ Office.onReady(() => {
         const sig = rng.address + "::" + shown;
         if (sig !== lastSig) {
           lastSig = sig;
-          out.textContent = `Address: ${rng.address}\n\nDISPLAYED TEXT:\n${shown || "(blank)"}`;
+          out.textContent = `${shown || "(blank)"}`;
           status.textContent = "Live (selection viewer)";
         }
       });
